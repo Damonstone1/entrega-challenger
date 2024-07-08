@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Challenger</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor">
+             <div class="logo">
+                 <img class="logoImg" src="Logo.png" alt="imagen logo">
+                    <h1 class="titulo">ENCRIPTADOR DE MENSAJES</h1>
+                </div>
+        <div class="izquierda">
+            <input class="text-input" id="InputTexto" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="derecha">
+            <img src="imgbuscar.png" id="ImagenDerecha" alt="Imagen muñeco">
+            <h1 id="texto">Ningun mensaje fue encontrao</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o dessencriptar.</textarea>
+            <button id="copiar" type="button" onclick="copiar()">¡Copiar!</button>
+        </div>
+        <div class="boton-izquierda">
+            <p class="mensejePequeño">Solo minusculas y sin acentos</p>
+            <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+         </div>
+        </main>
+        <footer class="footer">
+            <p>Desarrollado por Diego</p>
+        </footer>
+    <script src="app.js"></script>
+       
+</body>
+ 
+</html>
